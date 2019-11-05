@@ -1,0 +1,64 @@
+p, h1 {
+font-family: "Courier New";
+color: rgb(255, 0, 100) ;
+}
+
+div {
+min-height: 50vh;
+width: 100vw;
+}
+div.foo {
+  background-color: blue;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h1#title {
+  color: blue;
+}
+
+h2{
+  font-size: 2.5em
+}
+
+img{
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+#lower {
+  margin-top: 7%;
+}
+#lowest {
+  margin-top: 14%;
+}
+li {
+  margin: 0 20px;
+  padding: 20px;
+  transition: 0.6s ease;
+}
+li:hover {
+  font-size: 1.8em;
+  transition: 0.6s ease;
+}
+div.contrast {
+  background-color: black;
+  color: white;
+
+}
